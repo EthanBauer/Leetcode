@@ -4,7 +4,6 @@ class Solution:
         print(l, r)
         while l < r:
             currSum = numbers[l] + numbers[r]
-            
             if currSum > target:
                 r -= 1
             elif currSum < target:
